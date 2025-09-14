@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤ Te Amo Mi Amor ❤</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong style="font-size: 15px; font-style: italic;">Mi Amor...</strong>
+                        <p style="font-style: italic;">
+                            Eres una mujer unica no te imaginas lo afortunado que me siento desde que te conocí. Cada
+                            día a tu lado es un regalo que atesoro
+                            profundamente.
+                            Tu sonrisa ilumina mi vida y tu amor me llena de alegría. Gracias por ser mi
+                            compañera, gracias por todo el apoyo que me brindas y por lo mucho que te esfuerzas por
+                            hacerme feliz. Te amo con todo mi corazón y quiero que esto dure para siempre.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+
+</html>
